@@ -1,0 +1,112 @@
+.dashboard-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(lib4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+  
+  .navbar {
+    background-color: black; /* Dark gray background */
+    width: 84rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Add some padding to the navbar */
+    border-bottom: 1px solid black; /* Add a bottom border */
+    
+  }
+  
+  .navbar-brand {
+    color: #fff; /* White text */
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    font-size: medium;
+  }
+  
+  .nav-link {
+    color: #fff; /* White text */
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease; /* Add a transition effect */
+  }
+  
+  .nav-link:hover {
+    color: #ec6314; /* Yellow hover color */
+    transform: scale(1.1); /* Enlarge the link on hover */
+    border-bottom: 2px solid #87CEEB; /* Add a light blue underline on hover */
+  }
+  
+  .nav-link.active {
+    color: #fff; /* White text for active link */
+    background-color: #444; /* Dark gray background for active link */
+    border-radius: 5px; /* Add a subtle border radius */
+  }
+
+  .mainpart{
+    width: 1200px;
+    height: 500px;
+    background-color: white;
+    margin-top: 35px;
+  }
+
+  .mainpart h1 {
+    margin-bottom: 30px;
+    margin-left: 530px;
+  }
+  
+  .mainpart form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .mainpart form label {
+    margin-right: 90px;
+    margin-left: 70px;
+  }
+  
+  .mainpart form input,
+  .mainpart form select {
+    flex-grow: 1;
+    margin-right: 20px;
+  }
+  
+  .mainpart table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .mainpart th,
+  .mainpart td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .mainpart th {
+    background-color: #f2f2f2;
+  }
+  .mainpart button{
+    background-color: #4CAF50;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 270px;
+    padding: 10px;
+  }

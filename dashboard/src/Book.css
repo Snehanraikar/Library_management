@@ -1,0 +1,84 @@
+body {
+    background-image: url('lib4.jpg'); /* add background image to body */
+    background-size: cover; /* cover the entire body area */
+  }
+  
+  nav {
+    background-color: black; /* black background */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* align items to the right */
+    align-items: center;
+  }
+  
+  .back-link {
+    color: white; /* white text color */
+    text-decoration: none;
+    margin-right: 1rem; 
+    font-size: large;
+    background-color: #3e8e41;
+    width: 40px;
+    padding: 5px ;
+  }
+  
+  .back-link:hover {
+    color: #d3f53e; /* Yellow hover color */
+    transform: scale(1.1); /* Enlarge the link on hover */
+    border-bottom: 2px solid #2d70c7; 
+  }
+  .bg{
+    width: 1200px;
+    height:500px;
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .bg >h1{ margin-left: 540px;
+   margin-top: 10px;
+   padding-top: 10px;
+   font-size: 38px;
+
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 400px;
+  }
+  
+  input[type="text"], input[type="date"] {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #080808;
+    height: 25px;
+  
+  }
+  
+  input[type="date"] {
+    padding: 7px 7px 7px 7px; /* add some extra padding for the date picker icon */
+  }
+  
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .bg button {
+    display: inline-block;
+      background-color: #4CAF50;
+      color: #fff; 
+      border-radius: 5px;
+      margin-left: 10px;
+      width: 210px;
+    }
+  
+  
+  .bg button:last-child {
+    margin-right: 20px;
+  }

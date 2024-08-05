@@ -1,0 +1,65 @@
+nav {
+    background-color: black; /* black background */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* align items to the right */
+    align-items: center;
+  }
+  
+  .back-link {
+    color: white; /* white text color */
+    text-decoration: none;
+    margin-right: 1rem; 
+    font-size: large;
+    background-color: #3e8e41;
+    width: 40px;
+    padding: 5px ;
+  }
+  
+  .back-link:hover {
+    color: #d3f53e; /* Yellow hover color */
+    transform: scale(1.1); /* Enlarge the link on hover */
+    border-bottom: 2px solid #2d70c7; 
+  }
+
+  .AdSe {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .AdSe h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AdSe section {
+    margin-bottom: 40px;
+  }
+  
+  .AdSe table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .AdSe th, .AdSe td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .AdSe th {
+    background-color: #f0f0f0;
+  }
+  
+  .AdSe tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .AdSe tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
